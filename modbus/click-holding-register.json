@@ -1,0 +1,1 @@
+[{"id":"9afac9c9.6cc408","type":"http request","z":"11a0d0a2.ad03df","name":"","method":"POST","ret":"txt","paytoqs":"ignore","url":"http://192.168.0.240:3000/boilerstate","tls":"","persist":false,"proxy":"","authType":"","x":690,"y":200,"wires":[[]]}]
