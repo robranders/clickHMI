@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+/* Reset default */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 10px 20px;
+  background: #262626;
+  color: white;
+  font-size: 15px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Banner */
+
+.banner-inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.banner-image {
+  background: url("./img/Schematic.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.banner-title {
+  padding: 40px;
+}
+
+.banner-title .title {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.banner-title .info {
+  margin: 20px auto;
+}
+
+/* Used Technology */
+
+.used-tech-container {
+  background-color: lightgray;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+
+.used-tech-inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.used-tech-inner .title {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+}
+
+.used-tech-inner .logos img {
+  height: 60px;
+  width: auto;
+}
+
+.used-tech-inner .logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+/* Demo */
+
+.demo-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.demo-inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+}
