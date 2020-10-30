@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"> -->
     <link rel="stylesheet" href="style.css" />
     <title>CLICK HMI</title>
   </head>
@@ -40,12 +41,21 @@
     <div class="demo-container">
       <div class="demo-inner">
         <p class="title">HMI Demo</p>
-        <div class="pid">
+          <div class="demo-description">
+            <p>
+              The P&ID here is showing the results of an in-browser simulation. In a real scenario the value would be supplied by the server that is hosting the web page.
+            </p>
+          </div>
+          <div class="pid"></div>
+          <div class="chart-container">
+            <div class="ct-chart ct-perfect-fourth"></div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- JS -->
+    <!-- <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script> -->
     <script src="main.js"></script>
   </body>
 </html>
